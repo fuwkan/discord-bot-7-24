@@ -7,11 +7,7 @@ client.on('ready', () => {
 
 client.on('message', msg => {
   if (msg.content === 'sa') {
-    msg.reply('AleykümSelam');
-  }
-
-  if (msg.content === 'istiklalmarşı') {
-    msg.reply('Yakında...');
+ msg.reply('AleykümSelam');
   }
 
   if (msg.content === 'ping') {
@@ -25,6 +21,13 @@ if (msg.content === 'ping') {
 if (msg.content === 'avatarım') {
     msg.channel.send(msg.author.avatarURL);
 }
+  
+if (msg.content === 'kurucu')
+ msg.reply('ByMiralay,Miralay,Furkan...');
+  }
+  
+  
+  
 
 };
 
