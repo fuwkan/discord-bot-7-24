@@ -28,4 +28,4 @@ if (msg.content === 'avatarım') {
 
 });
 
-client.login('NTEwNDkzODEzOTE2MTcyMzAw.DsdhRA.LBZJc7JjhJPEGiAoGrBjPBGUeVc');
+client.login(process.env.BOT_TOKEN);
